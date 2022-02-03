@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covey", "Covey.csproj", "{D3CB7CD5-6275-44A5-A262-947558BB3E28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3CB7CD5-6275-44A5-A262-947558BB3E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CB7CD5-6275-44A5-A262-947558BB3E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CB7CD5-6275-44A5-A262-947558BB3E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CB7CD5-6275-44A5-A262-947558BB3E28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {582A2BA1-2B90-4A57-B467-2CCCD0F4D193}
+	EndGlobalSection
+EndGlobal

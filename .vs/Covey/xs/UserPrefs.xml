@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{D3CB7CD5-6275-44A5-A262-947558BB3E28}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Tasks.cshtml">
+    <Files>
+      <File FileName="Views/Home/Tasks.cshtml" Line="45" Column="4" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/Home/Quadrants.cshtml" />
+      <File FileName="Models/Appointments.cs" Line="1" Column="1" />
+      <File FileName="Models/ApplicationResponse.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Covey" expanded="True">
+            <Node name="Covey" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Tasks.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Covey PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
