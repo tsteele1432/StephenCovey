@@ -13,11 +13,11 @@ namespace Covey.Migrations
                 {
                     TaskId = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    TaskName = table.Column<string>(nullable: true),
+                    TaskName = table.Column<string>(nullable: false),
                     DueDate = table.Column<DateTime>(nullable: false),
                     Quadrant = table.Column<int>(nullable: false),
                     Category = table.Column<string>(nullable: true),
-                    Completed = table.Column<string>(nullable: true)
+                    Completed = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
                 {

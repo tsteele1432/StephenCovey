@@ -36,8 +36,12 @@ namespace Covey.Controllers
             return View("Confirmation", task);
         }
 
+        [HttpGet]
         public IActionResult Quadrants()
         {
+            var tasks = blahContext.Tasks
+                .ToList();
+
             return View();
         }
     }

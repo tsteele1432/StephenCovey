@@ -25,8 +25,8 @@ namespace Covey.Migrations
                     b.Property<string>("Category")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Completed")
-                        .HasColumnType("TEXT");
+                    b.Property<bool>("Completed")
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("TEXT");
@@ -35,6 +35,7 @@ namespace Covey.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("TaskName")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("TaskId");

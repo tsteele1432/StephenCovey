@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Covey.Migrations
 {
     [DbContext(typeof(TaskContext))]
-    [Migration("20220208054520_Inital")]
+    [Migration("20220208064706_Inital")]
     partial class Inital
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,8 +27,8 @@ namespace Covey.Migrations
                     b.Property<string>("Category")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Completed")
-                        .HasColumnType("TEXT");
+                    b.Property<bool>("Completed")
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("TEXT");
@@ -37,6 +37,7 @@ namespace Covey.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("TaskName")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("TaskId");
