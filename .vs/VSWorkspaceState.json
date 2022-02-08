@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Models"
   ],
-  "SelectedNode": "\\Covey.sln",
+  "SelectedNode": "\\Models\\TaskContext.cs",
   "PreviewInSolutionExplorer": false
 }
