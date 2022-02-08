@@ -11,9 +11,10 @@ namespace Covey.Controllers
     public class HomeController : Controller
     {
 
-        public HomeController(ILogger<HomeController> logger)
+        private TaskContext blahContext { get; set; }
+        public HomeController(ILogger<HomeController> logger, TaskContext someName)
         {
-
+            blahContext = someName;
         }
 
         public IActionResult Index()
@@ -30,6 +31,8 @@ namespace Covey.Controllers
         [HttpPost]
         public IActionResult Tasks(Task task)
         {
+            blahContext.Add(task);
+            blahContext.SaveChanges();
             return View("Confirmation", task);
         }
 
