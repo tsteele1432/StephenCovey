@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Covey.Models;
@@ -21,9 +20,17 @@ namespace Covey.Controllers
         {
             return View();
         }
+
+        [HttpGet]
         public IActionResult Tasks()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Tasks(Task task)
+        {
+            return View("Confirmation", task);
         }
 
         public IActionResult Quadrants()
